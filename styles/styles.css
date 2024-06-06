@@ -1,0 +1,609 @@
+/* fuentes 
+
+font-family: "Roboto Slab", serif;
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: grey;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+    text-decoration: solid;
+    text-align: center;
+}
+
+.navbar li{
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    list-style: none;
+    padding: 15px;
+}
+
+header .header-nos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: grey;
+
+}
+
+.navbar-nosotros{
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.navbar-nosotros li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+    text-decoration: solid;
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+
+nav a {
+    color: white; /* Color del texto */
+    text-decoration: none; /* Quita el subrayado */
+    padding: 10px; /* Espaciado */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición de color de fondo */
+}
+
+nav a:hover {
+    background-color: #333; /* Color de fondo al pasar el cursor */
+    color: #fff; /* Color del texto */
+}
+
+.navbar-nosotros li{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container-banners{
+    width: 100%;
+    margin: 0 auto 0 auto; /*centrar*/
+}
+
+.banner{
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: 100% 100%;
+    background-image: url(https://images.unsplash.com/photo-1604586398467-32924c78b879?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner2{
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: 100% 100%;
+    background-image: url(https://images.unsplash.com/photo-1519326844852-704caea5679e?q=80&w=1934&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner3{
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: 100% 100%;
+    background-image: url(https://images.unsplash.com/photo-1613160717888-faa82cdb8a94?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner a{
+    color: white;
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+
+.banner2 a{
+    color: white;
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+
+.banner3 a{
+    color: white;
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+
+
+header h1{
+    font-size: 65px;
+    font-family: "Roboto Slab", serif;
+    color: white;
+}
+
+header .icono{
+    font-size: 50px;
+}
+
+footer{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+footer a{
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-bottom: 3px solid white;
+    border-top: 3px solid white;
+}
+
+.titulo{
+    text-align: center;
+    background-color: black;
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+}
+
+.titulo2{
+    text-align: center;
+    background-color: white;
+    font-size: 30px;
+    color: black;
+    margin-top: 20px;
+}
+
+
+.subtitulo{
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+}
+
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin: 30px auto 0 auto;
+    gap: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+.imagenes img{
+    width: 350px;
+    height: auto;
+    border-radius: 5%;
+}
+
+.imagenes img {
+    filter: grayscale(100%); /* Filtro a las imágenes */
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.imagenes img:hover {
+    filter: grayscale(0%); /* Quitar el filtro al pasar el cursor */
+    transform: scale(1.1); /* Aumentar el tamaño al pasar el cursor */
+    filter: brightness(90%); /* Aumentar el brillo al pasar el cursor */
+}
+
+.enlace-footer {
+    color: black; /* Color del texto */
+    text-decoration: none; /* Quita el subrayado */
+    padding: 10px; /* Espaciado */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición de color de fondo */
+}
+
+.enlace-footer:hover {
+    background-color: #333; /* Color de fondo al pasar el cursor */
+    color: #fff; /* Color del texto */
+}
+
+.seccion1{
+    background-color: black;
+    padding: 40px;
+}
+
+.descripcion{
+    text-align: center;
+    padding: 15px;
+    font-family: "Roboto Slab", serif;
+    color: white;
+    font-size: 20px;
+}
+
+.titulo1 {
+    margin-top: 0px;
+    font-size: 36px; /* Tamaño del título */
+    color: #333; /* Color del título */
+    text-align: center; /* Alinear el título */
+    margin-bottom: 20px; /* Espaciado del título */
+    transition: all 0.3s ease; /* Transición del título */
+    background-color: #000;
+    color: white;
+    padding: 20px;
+}
+
+
+.titulo2 {
+    margin-top: 0px;
+    font-size: 36px; /* Tamaño del título */
+    color: #333; /* Color del título */
+    text-align: center; /* Alinear el título */
+    margin-bottom: 20px; /* Espaciado del título */
+    transition: all 0.3s ease; /* Transición del título */
+    background-color: #000;
+    color: white;
+    padding: 20px;
+}
+
+
+
+
+.titulo4 {
+    margin-top: 30px;
+    font-size: 36px; /* Tamaño del título */
+    color: #333; /* Color del título */
+    text-align: center; /* Alinear el título */
+    margin-bottom: 20px; /* Espaciado del título */
+    transition: all 0.3s ease; /* Transición del título */
+}
+
+.titulo4:hover {
+    transform: scale(1.1); /* Tamaño del título al pasar el mouse */
+}
+
+.titulo5 {
+    font-size: 36px; /* Tamaño del título */
+    color: #333; /* Color del título */
+    text-align: center; /* Alinear el título */
+    margin-bottom: 20px; /* Espaciado del título */
+    transition: all 0.3s ease; /* Transición del título */
+    background-color: #000;
+    color: white;
+    padding: 20px;
+}
+
+
+.descripcion2{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Roboto Slab", serif;
+    color: white;
+}
+
+.productos{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.productos2{
+    background: #4776E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.productos3{
+    background: #20002c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.desc-banner{
+    color: white;
+    font-size: 35px;
+    font-family: "Roboto Slab", serif;
+}
+
+.imagenes2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin: 0 auto 0 auto;
+    gap: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.imagenes2 img{
+    width: 350px;
+    height: auto;
+    border-radius: 5%;
+}
+
+.imagenes2 img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.imagenes2 img:hover {
+    filter: grayscale(0%); /* Quitar el filtro al pasar el cursor */
+    transform: scale(1.1); /* Aumentar el tamaño al pasar el cursor */
+    filter: brightness(90%); /* Aumentar el brillo al pasar el cursor */
+}
+
+/*a partir de aca modifico lo relacionado a la seccion contactanos*/
+
+form {
+    display: flex; /* Display flex para alinear los elementos */
+    flex-direction: column; /* Alinear los elementos en columna */
+    align-items: center; /* Alinear los elementos verticalmente */
+    width: 300px; /* Ancho del formulario */
+    margin: 0 auto; /* Centrar el formulario */
+    padding: 20px; /* Espaciado del formulario */
+    background-color: #f1eaea;
+    border-radius: 5px; /* Bordes redondeados del formulario */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: black;
+}
+
+label {
+    font-size: 18px; /* Tamaño de la letra */
+    margin-bottom: 10px; /* Espaciado del texto */
+}
+
+input[type="email"],
+textarea {
+    width: 100%; /* Ancho del campo */
+    padding: 10px; /* Espaciado del campo */
+    margin-bottom: 20px; /* Espaciado del campo */
+    border: 1px solid #ccc; /* Bordes del campo */
+    border-radius: 5px; /* Bordes redondeados del campo */
+}
+
+input[type="submit"] {
+    background-color: white; /* Color de fondo del botón */
+    color: black; /* Color del texto */
+    padding: 10px 20px; /* Espaciado del botón */
+    border: none; /* Quitar los bordes */
+    border-radius: 5px; /* Bordes redondeados del botón */
+    cursor: pointer; /* Cursor del botón */
+}
+
+input[type="submit"]:hover {
+    background-color: #a1a1a1;/* Color de fondo del botón al pasar el cursor */
+}
+
+.contactanos-footer{
+    margin-top: auto;
+}
+
+.cuerpo-contactanos{
+    background-color: #f1eaea;
+}
+
+.header-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: grey;
+}
+
+header .header-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F1EAFF;
+
+}
+
+.navBar-con{
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.navBar-con li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+    text-decoration: solid;
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+
+nav a {
+    color: white; /* Color del texto */
+    text-decoration: none; /* Quita el subrayado */
+    padding: 10px; /* Espaciado */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición de color de fondo */
+}
+
+nav a:hover {
+    background-color: black; /* Color de fondo al pasar el cursor */
+    color: #fff; /* Color del texto */
+}
+
+.navBar-con li{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+.titulo-contactanos{
+    color: white;
+}
+
+.contactanos-footer{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+@media(max-width:1024px){
+    header{
+        justify-content: space-between;
+    }
+
+    .header{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar li{
+        border-bottom: 2px solid white;
+        border-top: 2px solid white;
+    }
+}
+
+@media(max-width:768px){
+    .header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .navbar li{
+        border-bottom: 2px solid white;
+    }
+
+    footer{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+@media(max-width:475px){
+    
+    .header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar{
+        flex-direction: column;
+    }
+    .header{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .navbar li{
+        border-bottom: 2px solid white;
+    }
+
+    .imagenes{
+        flex-wrap: wrap;
+    }
+
+    footer{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
