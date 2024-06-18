@@ -36,7 +36,7 @@ header{
 }
 
 .navbar li{
-    border-top: 3px solid white;
+
     border-bottom: 3px solid white;
     list-style: none;
     padding: 15px;
@@ -530,17 +530,12 @@ nav a:hover {
 
     .navbar li{
         border-bottom: 2px solid white;
-        border-top: 2px solid white;
+
     }
 }
 
 @media(max-width:768px){
-    .header{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
+    
     .header{
         flex-direction: column;
         justify-content: center;
@@ -549,24 +544,21 @@ nav a:hover {
 
     .navbar{
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
-
     .header{
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
     .navbar{
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         flex-wrap: wrap;
     }
 
     .navbar li{
         border-bottom: 2px solid white;
+    }
+
+    .imagenes{
+        flex-wrap: wrap;
     }
 
     footer{
