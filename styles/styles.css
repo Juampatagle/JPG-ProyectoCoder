@@ -575,6 +575,10 @@ nav a:hover {
         align-items: center;
     }
 
+    .desc-banner{
+        text-align: center;
+    }
+
     .navbar{
         flex-direction: column;
     }
